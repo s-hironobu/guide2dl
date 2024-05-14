@@ -1,0 +1,119 @@
+#
+# Sine wave prediction using GRU of Keras.
+#
+# Developed environment:
+#  Python                   3.9.13
+#  pip                      23.1.2
+#  conda                    22.11.1
+#  numpy                    1.23.3
+#  matplotlib               3.6.0
+#  keras                    2.10.0
+#
+#   Copyright (c) 2024, Hironobu Suzuki @ interdb.jp
+
+import numpy as np
+from keras.models import Sequential
+from keras.layers import Dense, GRU
+from keras.optimizers import Adam
+import matplotlib.pyplot as plt
+import DataSet as ds
+
+
+def plot_fig(model, wave_data, n_sample, n_sequence):
+
+    wave = wave_data
+    z = wave[0:n_sequence]
+    input = wave[0:n_sequence+1]
+    sin = [None for i in range(n_sequence)]
+    gen = [None for i in range(n_sequence)]
+
+    for j in range(n_sample):
+        y = model.predict(z.reshape(1, n_sequence, 1))
+        z = np.append(z, y)[1:]
+        gen.append(y)
+        sin.append(wave[j+n_sequence])
+
+    plt.plot(input, color="b", label="input")
+    plt.plot(sin, "--", color="#888888", label="sine wave")
+    plt.plot(gen, color="r", label="predict")
+    plt.title("Prediction")
+    plt.legend()
+    plt.ylim([-2, 2])
+    plt.grid(True)
+    plt.show()
+
+# ============================
+# Data creation
+# ============================
+n_sequence = 25
+n_data = 100
+
+n_sample = n_data - n_sequence  # number of sample
+
+sin_data = ds.create_wave(n_data, 0.05)
+X, Y = ds.dataset(sin_data, n_sequence, False)
+
+X = X.reshape(X.shape[0], X.shape[1], 1)
+Y = Y.reshape(Y.shape[0], Y.shape[1])
+
+# ============================
+# Model creation
+# ============================
+
+lr = 0.001
+
+input_units = 1
+hidden_units = 32
+output_units = 1
+
+model = Sequential()
+model.add(
+    GRU(
+        hidden_units,
+        activation="tanh",
+        recurrent_activation="sigmoid",
+        use_bias=True,
+        batch_input_shape=(None, n_sequence, input_units),
+        return_sequences=False,
+    )
+)
+model.add(Dense(output_units, activation="linear", use_bias=True))
+model.compile(loss="mean_squared_error", optimizer=Adam(lr))
+
+print(model.summary())
+
+
+# ============================
+# Training
+# ============================
+
+n_epochs = 100
+
+batch_size = 5
+
+history_rst = model.fit(
+    X,
+    Y,
+    batch_size=batch_size,
+    epochs=n_epochs,
+    validation_split=0.1,
+    shuffle=True,
+    verbose=1,
+)
+
+
+plt.plot(history_rst.history["loss"], label="loss")
+plt.legend(loc="best")
+plt.title("Training Loss History")
+plt.xlabel("epochs")
+plt.ylabel("loss")
+plt.grid(True)
+plt.show()
+
+
+# ============================
+# Prediction
+# ============================
+
+sin_data = ds.create_wave(n_data, 0.0)
+plot_fig(model, sin_data, n_sample, n_sequence)

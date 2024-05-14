@@ -1,0 +1,7 @@
+*~
+.DS_Store
+References/
+*/__pycache__/
+Part-03/checkpoints/
+Part-04/checkpoints/
+*/NULL.txt

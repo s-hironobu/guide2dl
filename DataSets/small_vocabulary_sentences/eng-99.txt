@@ -1,0 +1,916 @@
+Get up.
+I know.
+I work.
+Come in.
+Come on.
+Get Tom.
+Get out.
+Go home.
+Help me.
+Help us.
+Me, too.
+See you.
+Take it.
+We know.
+Go on in.
+Help Tom.
+Help him.
+I can go.
+I get by.
+I get it.
+I got it.
+Take Tom.
+Come here.
+Come home.
+Go for it.
+Go get it.
+Have some.
+Here I am.
+I am good.
+I am here.
+I get you.
+I like it.
+I need it.
+I see Tom.
+Please go.
+Take this.
+Tom is in.
+Tom is up.
+We can go.
+Be on time.
+Come on in.
+Come to me.
+Come to us.
+Do come in.
+Go on home.
+Go see Tom.
+Go to work.
+He made it.
+Here it is.
+Here we go.
+I can help.
+I have one.
+I help him.
+I know Tom.
+I know her.
+I know him.
+I like Tom.
+I like him.
+I like you.
+I need Tom.
+I want Tom.
+I want one.
+I work out.
+Just do it.
+This is it.
+Time is up.
+Tom got up.
+Tom is out.
+We like it.
+We made it.
+We must go.
+We want it.
+You can go.
+As you like.
+Come see me.
+Go for help.
+Go get help.
+Go help Tom.
+Go with Tom.
+He can come.
+Help me out.
+Here I come.
+Here we are.
+I can do it.
+I had to go.
+I have time.
+I know that.
+I know this.
+I like that.
+I like this.
+I made that.
+I need help.
+I need this.
+I need time.
+I should go.
+I want more.
+I want that.
+I want this.
+I went home.
+I went, too.
+I will work.
+I work here.
+It is on me.
+It is there.
+Take my car.
+That is all.
+This is Tom.
+This is his.
+Tom will go.
+We all work.
+We are here.
+We can help.
+We help Tom.
+We know you.
+We like Tom.
+We like him.
+We like you.
+We need you.
+We want Tom.
+We want one.
+You know me.
+You made it.
+You need it.
+You need us.
+Come and see.
+Come help me.
+Come on home.
+Come up here.
+Come with me.
+Come with us.
+Do it for me.
+Good for you.
+He is not in.
+Help Tom out.
+Here you are.
+I am at home.
+I do want it.
+I go to work.
+I have a car.
+I have money.
+I have to go.
+I need a car.
+I want a lot.
+I want money.
+I want to go.
+Just do that.
+She went out.
+Take it home.
+Take us home.
+That was Tom.
+That will do.
+They help us.
+They know me.
+They know us.
+They need me.
+They want me.
+This is good.
+Tom can help.
+We can do it.
+We have some.
+We have time.
+We know that.
+We know this.
+We must help.
+We need help.
+We need more.
+We need this.
+We should go.
+You are good.
+You can come.
+You can help.
+You know her.
+You know him.
+You will see.
+Come out here.
+Do it with me.
+Get Tom on it.
+Have him come.
+He is at home.
+He made me go.
+I am like him.
+I am like you.
+I can be good.
+I can do more.
+I can do that.
+I can do this.
+I can see Tom.
+I can see you.
+I do like Tom.
+I do like you.
+I have had it.
+I just got up.
+I know people.
+I made him go.
+I must see it.
+I think I can.
+I was at home.
+Just take one.
+Please get in.
+She went home.
+Take me there.
+Take us there.
+There you are.
+They all know.
+They are here.
+They can help.
+They know Tom.
+They know him.
+They know you.
+Time is money.
+Tom can do it.
+Tom has a car.
+Tom has to go.
+Tom will help.
+We have to go.
+We need a car.
+We need money.
+We want a car.
+We want to go.
+We were there.
+You can do it.
+You know that.
+You know this.
+You must work.
+You need help.
+You need this.
+You should go.
+Come on, do it.
+Do as you like.
+Do as you want.
+Do not do that.
+Do that for me.
+Get on in here.
+Good work, Tom.
+He has to come.
+He should come.
+He was at home.
+Here they come.
+I can help Tom.
+I can help you.
+I had to do it.
+I have a house.
+I have no home.
+I have to work.
+I just want it.
+I like to work.
+I need to work.
+I want to help.
+I want to know.
+I want to work.
+It was for Tom.
+Just go for it.
+No one is home.
+People like me.
+Please come in.
+Please do that.
+Please help me.
+Take it to Tom.
+They have come.
+They know that.
+They need help.
+They want more.
+They want this.
+They will come.
+They will help.
+Think about it.
+This is my car.
+This is on you.
+Tom is at work.
+Tom is with us.
+We all know it.
+We are at home.
+We can do that.
+We should help.
+You have to go.
+You must do it.
+You need money.
+Come and get it.
+Come and see me.
+Come if you can.
+Come on up here.
+Come on, get up.
+Do what you can.
+Get out of here.
+Go do something.
+He is not there.
+Here, take this.
+I do that a lot.
+I have no money.
+I know all that.
+I like my house.
+I like your car.
+I made that one.
+I must go there.
+I must help her.
+I must help him.
+I need his help.
+I need one more.
+I need to go in.
+I need you here.
+I never do that.
+I see his house.
+I want his help.
+I want my money.
+I want that one.
+I will help you.
+I work with him.
+It is up to you.
+It was all good.
+It was from Tom.
+Just do it, Tom.
+Please help Tom.
+Please take one.
+That car is his.
+That is her car.
+That is his car.
+They need money.
+They went there.
+This car is his.
+This is for you.
+This is my home.
+This is no good.
+This is our car.
+Tom was with us.
+We all like him.
+We can help Tom.
+We can help you.
+We have no time.
+We want to help.
+We want to know.
+You are the one.
+You can come in.
+You can go home.
+You know people.
+You made my day.
+Your time is up.
+Come and help me.
+Come and help us.
+Come to my house.
+Do as you please.
+Do not come here.
+Do what you like.
+Do what you want.
+Do what you will.
+Go there with me.
+Go when you want.
+Have a good time.
+He just got home.
+Help me out here.
+I am out of work.
+I just need time.
+I like her a lot.
+I like you a lot.
+I like your work.
+I need help here.
+I need more help.
+I need to see it.
+I need your help.
+I see your house.
+I should go home.
+I want some more.
+I want to see it.
+I want you to go.
+It is what it is.
+It was like that.
+My house is here.
+No one was there.
+No one will know.
+Please come here.
+She is not there.
+Take me with you.
+That should help.
+They work for me.
+Think about that.
+Think about this.
+This and no more.
+This is my house.
+This is our home.
+Tom had no money.
+Tom has no money.
+Tom is from here.
+Tom is with Mary.
+Tom made Mary go.
+We have no money.
+We have to do it.
+We have to go on.
+We just got here.
+We never do that.
+You have to come.
+You must come in.
+You must go home.
+You need to know.
+All I want is you.
+Come and see this.
+Come home with me.
+Get out of my car.
+I am in the house.
+I do all the work.
+I had a good time.
+I had to help Tom.
+I have it at home.
+I have to be here.
+I have to go home.
+I have to see Tom.
+I just made it up.
+I know it was Tom.
+I know what it is.
+I know what to do.
+I like your house.
+I need this money.
+I need to get one.
+I need to go home.
+I never had a car.
+I think I like it.
+I want a lot more.
+I want more money.
+I want some money.
+I want to be here.
+I want to come in.
+I want to go home.
+I want to see Tom.
+I want to see him.
+I want to see you.
+I was about to go.
+I was out all day.
+It was a good day.
+Just come up here.
+She must go there.
+She went with him.
+That is her house.
+That should do it.
+The time has come.
+This is her house.
+This is his house.
+This is very good.
+This should do it.
+Tom is good to me.
+Tom was here, too.
+Tom was with Mary.
+Tom will be there.
+Tom will help you.
+Tom, this is Mary.
+We need more time.
+We need the money.
+We need your help.
+We should do that.
+We want our money.
+You could help me.
+You have to do it.
+You made me do it.
+You must help her.
+All of us like her.
+Get me out of here.
+Get out of the car.
+Get us out of here.
+I can get you more.
+I could be of help.
+I have to be there.
+I have to get home.
+I have to help Tom.
+I have to see this.
+I have what I want.
+I know I can do it.
+I know what I need.
+I know what I want.
+I know what it was.
+I know what you do.
+I know you have it.
+I should take this.
+I want to go there.
+I want to help out.
+I want to help you.
+I want to see more.
+I want you to come.
+I want you to help.
+It was about money.
+No one can help me.
+No one was at home.
+She made him do it.
+Take what you need.
+Take what you want.
+There must be more.
+They all have come.
+They were all here.
+This is all I know.
+This is not my car.
+This is your house.
+This one is for us.
+Tom could see Mary.
+Tom got in his car.
+Tom has to do this.
+Tom is out of work.
+Tom will help Mary.
+Tom will need help.
+We can all do this.
+We do not know her.
+We do not know him.
+We need some money.
+We want more money.
+We want to go home.
+We want to see Tom.
+You just need help.
+You know something.
+You should be home.
+You should go home.
+You should know it.
+Get Tom out of here.
+Get Tom to help you.
+Get her out of here.
+Get out of my house.
+He should have come.
+I could not get out.
+I do need your help.
+I had to go to work.
+I have to go get it.
+I have to help Mary.
+I just made that up.
+I just want to help.
+I know all about it.
+I know we can do it.
+I know what that is.
+I know what we need.
+I need to know more.
+I never could do it.
+I see Tom every day.
+I think I need help.
+I think we need Tom.
+I want more of that.
+I want to work here.
+No one can help you.
+Please do something.
+Please take me home.
+They know something.
+They need the money.
+They should know it.
+This is not my home.
+This is what I need.
+Tom is in the house.
+Tom is just like me.
+Tom made Mary do it.
+Tom made it on time.
+Tom was out all day.
+We know Tom is here.
+We want to help Tom.
+We want to help you.
+You do what you can.
+You have to help me.
+You need to help me.
+Your time will come.
+Come with me, please.
+Do it just like this.
+Good to see you, Tom.
+I have to get to Tom.
+I have to go to work.
+I know Tom from work.
+I know about you two.
+I know all about Tom.
+I know what you want.
+I like to be at home.
+I need to go to work.
+I should go with you.
+I think they know me.
+I think they know us.
+I think we need help.
+I thought it was Tom.
+I want to please you.
+I was there with Tom.
+I will come with you.
+I will have him come.
+I will take you home.
+My home is your home.
+She is never on time.
+Take Tom out of here.
+They want more money.
+They want to go home.
+They want to help us.
+This is a good house.
+This is all I can do.
+This is for you, Tom.
+This is what we need.
+Tom is just like you.
+Tom is never on time.
+Tom should know that.
+Tom was good at that.
+Tom was here all day.
+We know what we want.
+We made him go there.
+We see him every day.
+What we need is help.
+You can come with us.
+You just made my day.
+You know what I like.
+You know what I need.
+You know you need it.
+You must not come in.
+You need to be there.
+You should know that.
+You two come with me.
+A lot of people do it.
+Come here and help me.
+He got a lot of money.
+He has a lot of money.
+I can do this all day.
+I come here every day.
+I had to do something.
+I have a lot of money.
+I just need more time.
+I just need some time.
+I know this will work.
+I need help with this.
+I need more than that.
+I need to get to work.
+I need you to go home.
+I need you to help me.
+I think they know you.
+I thought he was here.
+I want Tom to help us.
+I want something more.
+I want to be with Tom.
+I want to be with you.
+I want to go with Tom.
+I want to go with you.
+I want you to see her.
+I will need your help.
+No one was in the car.
+Please do this for me.
+Please take your time.
+Please think about it.
+They made me go there.
+This is the last time.
+Tom had to go to work.
+Tom should be at home.
+Tom thought I was you.
+Tom, I need your help.
+We all want something.
+We have a lot of time.
+We just have to do it.
+You know I have to go.
+You need not go there.
+You should go to work.
+Do what you have to do.
+I go to work every day.
+I had a good time, too.
+I have more work to do.
+I have to do something.
+I just need to see Tom.
+I just want to go home.
+I just want to see Tom.
+I know Tom is in there.
+I know a lot about you.
+I know just what to do.
+I know what I would do.
+I know what time it is.
+I know you can do this.
+I know you can help us.
+I need Tom to see this.
+I need you to see this.
+I thought you were Tom.
+I want him to go there.
+I want you to help Tom.
+I was made to go there.
+I was the last one out.
+I was with Tom all day.
+I would like to see it.
+One of us has to do it.
+She got out of the car.
+She has a lot of money.
+She is in need of help.
+There was no one about.
+They made me come here.
+This is the one I want.
+Tom has a lot of money.
+Tom has to go see Mary.
+Tom is in need of help.
+Tom will need our help.
+We just need more time.
+We want you to help us.
+You can take your time.
+Get it out of the house.
+I do not like the house.
+I got something for Tom.
+I had to get some money.
+I just want to help Tom.
+I just want you to come.
+I thought Tom was there.
+I thought he would come.
+I thought you went home.
+I want you to come home.
+I want you to have this.
+I was here all the time.
+I went there to see her.
+If you want, you can go.
+Mary has just come home.
+Please come to my house.
+She was about to go out.
+Take the money with you.
+They got out of the car.
+This house is very good.
+This is all that I know.
+This is not about money.
+This is not good at all.
+Tom would never do that.
+We had no help from Tom.
+You have what they want.
+He was here at that time.
+I can get us out of this.
+I do want to go with you.
+I have no one to help me.
+I have something for Tom.
+I have something for you.
+I have to think about it.
+I just need one more day.
+I know what I want to do.
+I need to know something.
+I think this one is good.
+I think you should do it.
+I want to think about it.
+I would do it if I could.
+I would go if I were you.
+If you can, come with us.
+It was just as I thought.
+No one can do it but you.
+Please take Tom with you.
+They want to be with you.
+This is all I want to do.
+This is all he has to do.
+This is not what we want.
+This is what you must do.
+Tom had a very good time.
+Tom is too good for Mary.
+We know that Tom is here.
+You can do what you want.
+You have to come with me.
+You should go to see him.
+For me, time is not money.
+He must be the one for me.
+I have just what you need.
+I have no time to see you.
+I have some money with me.
+I just need time to think.
+I need some time to think.
+I need to get out of here.
+I think about Tom all day.
+I want to get out of here.
+I want to go out with her.
+I want you to go with Tom.
+I want you to work for me.
+I will help you all I can.
+One of us will have to go.
+Please get me out of here.
+They made us work all day.
+This is all Tom has to do.
+This is what I have to do.
+You can go if you want to.
+You know what you must do.
+He could get no more money.
+I have a lot of work to do.
+I have more money than Tom.
+I just want to be with you.
+I like it when you do that.
+I like this house as it is.
+I think about it every day.
+I think that you should go.
+I think we should go there.
+I thought Tom was with you.
+I thought we had more time.
+I want Tom out of my house.
+I want to go with you, Tom.
+I want you out of my house.
+I want you to come with me.
+I want you to come with us.
+I want you to work with me.
+She got the money from him.
+Take all the time you need.
+They will go there with me.
+Tom had no one to help him.
+We have to get out of here.
+We see what we want to see.
+We think that he will come.
+Help me and I will help you.
+I just need to do something.
+I just thought of something.
+I like this. I will take it.
+I need to know when to come.
+I see Tom here all the time.
+I think I know what this is.
+I think of you all the time.
+I think you need to see him.
+I thought Tom was with Mary.
+I thought Tom would like it.
+I thought you could help me.
+I want to know what that is.
+I was just about to go home.
+She has a lot of work to do.
+She will be here in no time.
+That is what I want to know.
+This is what you have to do.
+Tom and Mary want to see us.
+Tom could do with some help.
+Tom must be up to something.
+We have a lot of work to do.
+We should do this every day.
+You can come if you want to.
+You should come out with us.
+Come on, Tom, think about it.
+Come when you have some time.
+I do not know what I will do.
+I need to know what you know.
+I thought that he would come.
+I thought we had a good time.
+I want to be there, you know.
+I want to know what I can do.
+I want you to get in the car.
+I want you to have something.
+I want you to know something.
+I want you to take me to Tom.
+If he has time, he will come.
+If you want me to go, I will.
+Please do something about it.
+That is all I know about him.
+They, too, were out of money.
+This is all the money I have.
+This is what we want to know.
+Tom and Mary want to see you.
+Tom and Mary will go with me.
+Tom has a lot to think about.
+Tom has more money than I do.
+Tom thought about Mary a lot.
+Tom will have to do the work.
+We have to do something, Tom.
+We must do something to help.
+You do not have to come here.
+You know what you have to do.
+A lot of people need our help.
+I can get you one if you like.
+I go to work by car every day.
+I need to know more about Tom.
+I think you know what I think.
+I thought you should see this.
+I want to know what you think.
+If I want something, I get it.
+This is what I can do for you.
+Tom would help us if he could.
+We just want to take Tom home.
+He has something to do with it.
+I just need more time with Tom.
+I know what they want me to do.
+I think about him all the time.
+I think about you all the time.
+I think we should do some more.
+I think your work is very good.
+There are a lot of people here.
+This is something I have to do.
+Tom thought no one was at home.
+He will come to see us some day.
+I could never do it like you do.
+I just need you to come with me.
+I need to get something for Tom.
+I think Tom will do that for us.
+I think we have more work to do.
+I thought Tom was here with you.
+I would like to come to see you.
+It would be good if I had a car.
+The more I get, the more I want.
+This one is as good as that one.
+Tom, I want you to come with me.
+We have to do the work in a day.
+You can go there if you want to.
+I know that you know that I know.
+I thought Tom would want to know.
+I want to know what time to come.
+I want you to take this with you.
+I would like to come and see you.
+I would like you to come with me.
+If I were you, I would not do it.
+She is not what you think she is.
+There is no need for him to work.
+There is something you must know.
+There were a lot of people there.
+I do not like him, but I like her.
+I think you know I like you a lot.
+I thought Tom would want the work.
+I thought Tom would want this one.
+I want you to do something for me.
+If I had time to do that, I would.
+This is all that I know about him.
+Tom is not like that all the time.
+I do not think that she is at home.
+I need some time to think about it.
+I will get him to come and help me.
+There must be something you can do.
+Tom and I want you to come with us.
+We have to do something about this.
+He has a lot more money than I have.
+I thought Tom would want to help me.
+I would like you to go home with me.
+I have something that you should see.
+I think about that from time to time.
+I thought Tom would like to see this.
+I thought Tom would want to see this.
+I want you to do what you have to do.
+The more you have, the more you want.
+Tom has a lot more money than I have.
+Every time I go to his house, he is out.
+If you want to go out with Tom, you can.
+Please come and see me if you have time.
+Tom must have been at home at that time.
+I have no time to help you with the work.
+I thought it must be something like that.
+I want you to get the help that you need.
+The more I know him, the more I like him.
+If you want to come with us, come with us.
+She thought she could get him to like her.
+I want every day to be as good as this one.
+I thought Tom would want to know about that.
+I went to her house, but she was not at home.
