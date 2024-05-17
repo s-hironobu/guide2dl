@@ -236,7 +236,7 @@ def plot_fig(simple_rnn, dense, wave_data, n_sample, n_sequence):
         h = simple_rnn.forward_prop(z, n_sequence)
         y = dense.forward_prop(h)
         z = np.append(z, y)[1:]
-        gen.append(y)
+        gen.append(y[0][0])
         sin.append(wave[j+n_sequence])
 
     plt.plot(input, color="b", label="input")

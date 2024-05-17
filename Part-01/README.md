@@ -22,7 +22,7 @@
 2. [binary-to-decimal-conversion-tf.py](./binary-to-decimal-conversion-tf.py)
 3. [XOR-gate-tf-softmax.py](./XOR-gate-tf-softmax.py)
 
-#### Keras version
+#### Keras (2.10) version
 
 1. [XOR-gate-keras.py](./XOR-gate-keras.py)
 2. [binary-to-decimal-conversion-keras.py](./binary-to-decimal-conversion-keras.py)

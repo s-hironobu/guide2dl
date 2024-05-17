@@ -12,7 +12,10 @@
 #   Copyright (c) 2024, Hironobu Suzuki @ interdb.jp
 
 from keras.models import Sequential
-from keras.layers.core import Activation, Dense
+try:
+    from keras.layers.core import Activation, Dense
+except:
+    from keras.layers import Activation, Dense
 from keras.optimizers import Adam
 from keras.layers import Layer
 import numpy as np

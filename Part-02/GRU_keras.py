@@ -1,6 +1,8 @@
 #
 # Sine wave prediction using GRU of Keras.
 #
+# NOTE: Keras 3.0+ not supported
+#
 # Developed environment:
 #  Python                   3.9.13
 #  pip                      23.1.2
@@ -30,7 +32,7 @@ def plot_fig(model, wave_data, n_sample, n_sequence):
     for j in range(n_sample):
         y = model.predict(z.reshape(1, n_sequence, 1))
         z = np.append(z, y)[1:]
-        gen.append(y)
+        gen.append(y[0][0])
         sin.append(wave[j+n_sequence])
 
     plt.plot(input, color="b", label="input")

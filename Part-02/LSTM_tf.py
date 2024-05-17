@@ -48,7 +48,7 @@ def plot_fig(model, wave_data, n_sample, n_sequence):
     for j in range(n_sample):
         y = model.predict(z.reshape(1, z.shape[0], 1))
         z = np.append(z, y)[1:]
-        gen.append(y)
+        gen.append(y[0][0])
         sin.append(wave[j+n_sequence])
 
     plt.plot(input, color="b", label="input")

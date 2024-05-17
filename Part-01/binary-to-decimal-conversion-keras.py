@@ -13,7 +13,10 @@
 
 import keras
 from keras.models import Sequential
-from keras.layers.core import Activation, Dense
+try:
+    from keras.layers.core import Activation, Dense
+except:
+    from keras.layers import Activation, Dense
 from keras.optimizers import Adam
 import numpy as np
 import matplotlib.pyplot as plt

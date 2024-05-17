@@ -13,8 +13,14 @@
 
 import keras
 from keras.models import Sequential
-from keras.layers.convolutional import Conv2D, MaxPooling2D
-from keras.layers.core import Activation, Flatten, Dense
+try:
+    from keras.layers.convolutional import Conv2D, MaxPooling2D
+except:
+    from keras.layers import Conv2D, MaxPooling2D
+try:
+    from keras.layers.core import Activation, Flatten, Dense
+except:
+    from keras.layers import Activation, Flatten, Dense
 from keras.datasets import mnist
 from keras.optimizers import Adam
 import matplotlib.pyplot as plt
