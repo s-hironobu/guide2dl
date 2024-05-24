@@ -36,6 +36,27 @@ CHECKPOINT = True
 # Define functions
 # ========================================
 
+import platform
+import subprocess
+
+def _is_m1_mac():
+    # Check if the OS is macOS
+    if platform.system() != "Darwin":
+        return False
+    # Check if the machine is ARM-based (which indicates Apple Silicon)
+    machine = platform.machine()
+    if machine not in ["arm64", "aarch64"]:
+        return False
+    # Further verify by checking the hardware model
+    try:
+        model = subprocess.check_output(["sysctl", "-n", "machdep.cpu.brand_string"]).decode().strip()
+        if "Apple" in model:
+            return True
+    except subprocess.CalledProcessError:
+        return False
+    return False
+
+
 #
 # Positional Encoding
 #
@@ -330,7 +351,6 @@ dropout_rate = 0.1
 # Optimizer
 #
 
-
 class CustomSchedule(tf.keras.optimizers.schedules.LearningRateSchedule):
     def __init__(self, d_model, warmup_steps=4000):
         super(CustomSchedule, self).__init__()
@@ -349,7 +369,15 @@ class CustomSchedule(tf.keras.optimizers.schedules.LearningRateSchedule):
 
 learning_rate = CustomSchedule(d_model)
 
-optimizer = tf.keras.optimizers.Adam(learning_rate, beta_1=0.9, beta_2=0.98, epsilon=1e-9)
+if _is_m1_mac() == True:
+    """
+    WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs,
+    please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+    """
+    optimizer = tf.keras.optimizers.legacy.Adam(learning_rate, beta_1=0.9, beta_2=0.98, epsilon=1e-9)
+else:
+    optimizer = tf.keras.optimizers.Adam(learning_rate, beta_1=0.9, beta_2=0.98, epsilon=1e-9)
+
 
 #
 # Loss function

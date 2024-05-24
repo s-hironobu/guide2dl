@@ -2,13 +2,14 @@
 # Sine wave prediction using GRU of Tensorflow.
 #
 # Developed environment:
-#  Python                   3.9.13
-#  pip                      23.1.2
-#  conda                    22.11.1
-#  numpy                    1.23.3
-#  matplotlib               3.6.0
-#  tensorflow-macos         2.10.0
-#  tensorflow-metal         0.6.0
+# Python                       3.11.5
+# keras                        2.15.0
+# pip                          24.0
+# numpy                        1.26.4
+# matplotlib                   3.9.0
+# tensorflow                   2.15.1
+# tensorflow-metal             1.1.0
+# scikit-learn                 1.5.0
 #
 #   Copyright (c) 2024, Hironobu Suzuki @ interdb.jp
 

@@ -2,12 +2,14 @@
 # Single Hidden Layer Neural Network for learning XOR gate
 #
 # Developed environment:
-#  Python                   3.9.13
-#  pip                      23.1.2
-#  conda                    22.11.1
-#  numpy                    1.23.3
-#  matplotlib               3.6.0
-#  keras                    2.10.0
+# Python                       3.11.5
+# keras                        2.15.0
+# pip                          24.0
+# numpy                        1.26.4
+# matplotlib                   3.9.0
+# tensorflow                   2.15.1
+# tensorflow-metal             1.1.0
+# scikit-learn                 1.5.0
 #
 #   Copyright (c) 2024, Hironobu Suzuki @ interdb.jp
 
@@ -66,7 +68,7 @@ print(model.summary())
 # Training
 # ========================================
 
-n_epochs = 800
+n_epochs = 300
 
 # Run through the data `epochs` times
 history = model.fit(X, Y, epochs=n_epochs, batch_size=1, verbose=1)
@@ -106,7 +108,7 @@ for i in range(100):
     for j in range(100):
         x = [float(i) / 100, float(j) / 100]
         _h = sigmoid(np.dot(W.T, x) + b)
-        hm[i][j] = sigmoid(np.dot(U.T, _h) + c)
+        hm[i][j] = sigmoid(np.dot(U.T, _h) + c).item()
 
 plt.title("")
 plt.xlabel("X[0]")

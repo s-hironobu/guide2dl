@@ -2,7 +2,7 @@
 # Subset of the LanguageTranslationHelper.py@Common, which is a module for language translation.
 #
 # Developed environment:
-#  Python                   3.9.13
+#  Python                   3.11.5
 #
 #   Copyright (c) 2024, Hironobu Suzuki @ interdb.jp
 
