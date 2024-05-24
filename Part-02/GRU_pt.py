@@ -2,13 +2,16 @@
 # Sine wave prediction using GRU of PyTorch.
 #
 # Developed environment:
-#  Python                   3.9.13
-#  pip                      23.1.2
-#  conda                    22.11.1
-#  numpy                    1.23.3
-#  matplotlib               3.6.0
-#  torch                    2.0.1
-#  torchinfo                1.8.0
+# Python                       3.11.5
+# keras                        2.15.0
+# pip                          24.0
+# numpy                        1.26.4
+# matplotlib                   3.9.0
+# scikit-learn                 1.5.0
+# torch                        2.4.0.dev20240523
+# torchaudio                   2.2.0.dev20240523
+# torchinfo                    1.8.0
+# torchvision                  0.19.0.dev20240523
 #
 #   Copyright (c) 2024, Hironobu Suzuki @ interdb.jp
 
@@ -20,17 +23,12 @@ import torch.optim as optimizers
 from torchinfo import summary
 import DataSet as ds
 
-"""
 if torch.cuda.is_available():
     device = torch.device("cuda")
 elif torch.backends.mps.is_available():
     device = torch.device("mps")
 else:
     device = torch.device("cpu")
-"""
-
-"""GRU module for M1 may have a bug, so I force it to run with cpu device."""
-device = torch.device("cpu")
 print(device)
 
 
