@@ -22,8 +22,6 @@ To ensure compatibility, please create the environment using the above versions 
 - I am happy to receive bug reports and assist with bug fixes.
 - I am unable to provide support for any installation issues.
 
-### Part 0: [Basic Knowledge](./Part-00/)
-
 
 ### Part 1: [Basic Neural Networks](./Part-01/)
 
@@ -35,6 +33,9 @@ To ensure compatibility, please create the environment using the above versions 
 
 
 ### Part 4: [Transformer](./Part-04/)
+
+
+### Appendix: [Basic Knowledge](./Appendix/)
 
 
 ### License
