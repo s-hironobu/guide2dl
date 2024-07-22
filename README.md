@@ -68,3 +68,8 @@ $ pip install tensorflow-metal==1.1.0
 $ pip install matplotlib==3.9.0
 ```
 
+### Appendix 2: Installing PyTorch on M1 Mac
+
+```
+$ pip install torch torchvision torchaudio
+```

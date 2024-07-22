@@ -149,6 +149,6 @@ for i in range(0, len(Y)):
         )
         result = result.to("cpu").detach().numpy().copy()
 
-    print(" {}  XOR {}  => {:.4f}".format(int(x0), int(x1), float(result)))
+    print(" {}  XOR {}  => {:.4f}".format(int(x0), int(x1), float(result[0][0])))
 
 print("========================")
