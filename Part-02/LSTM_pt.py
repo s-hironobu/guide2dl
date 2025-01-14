@@ -14,7 +14,7 @@
 # torchinfo                    1.8.0
 # torchvision                  0.19.0.dev20240523
 #
-#   Copyright (c) 2024, Hironobu Suzuki @ interdb.jp
+#   Copyright (c) 2024-2025, Hironobu Suzuki @ interdb.jp
 
 import numpy as np
 import matplotlib.pyplot as plt

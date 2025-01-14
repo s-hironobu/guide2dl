@@ -5,7 +5,7 @@
 #  numpy                    1.23.3
 #  matplotlib               3.6.0
 #
-#   Copyright (c) 2024, Hironobu Suzuki @ interdb.jp
+#   Copyright (c) 2024-2025, Hironobu Suzuki @ interdb.jp
 
 #import numpy as np
 import matplotlib.pyplot as plt

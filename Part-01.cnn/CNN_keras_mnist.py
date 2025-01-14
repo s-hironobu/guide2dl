@@ -11,7 +11,7 @@
 # tensorflow-metal             1.1.0
 # scikit-learn                 1.5.0
 #
-#   Copyright (c) 2024, Hironobu Suzuki @ interdb.jp
+#   Copyright (c) 2024-2025, Hironobu Suzuki @ interdb.jp
 
 import keras
 from keras.models import Sequential

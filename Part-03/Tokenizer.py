@@ -4,7 +4,7 @@
 # Developed environment:
 #  Python                   3.11.5
 #
-#   Copyright (c) 2024, Hironobu Suzuki @ interdb.jp
+#   Copyright (c) 2024-2025, Hironobu Suzuki @ interdb.jp
 
 class Tokenizer:
     def __init__(self, file_name, category=False):
