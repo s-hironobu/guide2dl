@@ -13,7 +13,7 @@
 # tensorflow-metal             1.1.0
 # scikit-learn                 1.5.0
 #
-#   Copyright (c) 2024-2025, Hironobu Suzuki @ interdb.jp
+#   Copyright (c) 2024-2026, Hironobu Suzuki @ interdb.jp
 
 
 from sklearn.model_selection import train_test_split
@@ -169,7 +169,7 @@ checkpoint_path = (
 
 if CHECKPOINT == True:
     ckpt = tf.train.Checkpoint(optimizer=optimizer, encoder=encoder, decoder=decoder)
-    ckpt_manager = tf.train.CheckpointManager(ckpt, checkpoint_path, max_to_keep=2)
+    ckpt_manager = tf.train.CheckpointManager(ckpt, checkpoint_path, max_to_keep=1)
     if ckpt_manager.latest_checkpoint:
         ckpt.restore(ckpt_manager.latest_checkpoint)
         print("Latest checkpoint restored!!")

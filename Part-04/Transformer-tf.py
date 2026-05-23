@@ -13,7 +13,7 @@
 #  tensorflow-metal         0.6.
 #  scikit-learn             1.2.0
 #
-#   Copyright (c) 2024-2025, Hironobu Suzuki @ interdb.jp
+#   Copyright (c) 2024-2026, Hironobu Suzuki @ interdb.jp
 
 import numpy as np
 import tensorflow as tf
@@ -455,7 +455,7 @@ checkpoint_path = (
 
 if CHECKPOINT == True:
     ckpt = tf.train.Checkpoint(transformer=transformer, optimizer=optimizer)
-    ckpt_manager = tf.train.CheckpointManager(ckpt, checkpoint_path, max_to_keep=5)
+    ckpt_manager = tf.train.CheckpointManager(ckpt, checkpoint_path, max_to_keep=1)
     if ckpt_manager.latest_checkpoint:
         ckpt.restore(ckpt_manager.latest_checkpoint)
         print("Latest checkpoint restored!!")
