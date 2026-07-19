@@ -220,9 +220,15 @@ class DecoderLayer(tf.keras.layers.Layer):
 class Encoder(tf.keras.layers.Layer):
     def __init__(self, num_layers, d_model, num_heads, d_ffn, source_vocab_size, maximum_position_encoding, rate=0.1):
         super(Encoder, self).__init__()
+        _init = tf.keras.initializers.TruncatedNormal(stddev=0.02)
         self.d_model = d_model
         self.num_layers = num_layers
-        self.embedding = tf.keras.layers.Embedding(source_vocab_size, d_model)
+        self.embedding = tf.keras.layers.Embedding(
+            source_vocab_size,
+            d_model,
+            embeddings_initializer=_init,
+            name="encoder_embedding",
+        )
         self.pos_encoding = positional_encoding(maximum_position_encoding, self.d_model)
         self.enc_layers = [
             EncoderLayer(d_model, num_heads, d_ffn, rate) for _ in range(num_layers)
@@ -247,11 +253,15 @@ class Encoder(tf.keras.layers.Layer):
 class Decoder(tf.keras.layers.Layer):
     def __init__(self, num_layers, d_model, num_heads, d_ffn, target_vocab_size, maximum_position_encoding, rate=0.1):
         super(Decoder, self).__init__()
-
+        _init = tf.keras.initializers.TruncatedNormal(stddev=0.02)
         self.d_model = d_model
         self.num_layers = num_layers
-
-        self.embedding = tf.keras.layers.Embedding(target_vocab_size, d_model)
+        self.embedding = tf.keras.layers.Embedding(
+            target_vocab_size,
+            d_model,
+            embeddings_initializer=_init,
+            name="decoder_embedding",
+        )
         self.pos_encoding = positional_encoding(maximum_position_encoding, d_model)
 
         self.dec_layers = [DecoderLayer(d_model, num_heads, d_ffn, rate) for _ in range(num_layers)]

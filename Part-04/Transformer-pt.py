@@ -243,7 +243,7 @@ class Encoder(nn.Module):
         self.num_layers = num_layers
 
         self.embedding = nn.Embedding(source_vocab_size, d_model)
-
+        nn.init.trunc_normal_(self.embedding.weight, std=0.02)
         # positional encoding: (1, maximum_position_encoding, d_model)
         # registered as buffer so it moves with .to(device)
         self.register_buffer(
@@ -284,6 +284,7 @@ class Decoder(nn.Module):
         self.num_layers = num_layers
 
         self.embedding = nn.Embedding(target_vocab_size, d_model)
+        nn.init.trunc_normal_(self.embedding.weight, std=0.02)
         self.register_buffer(
             "pos_encoding",
             positional_encoding(maximum_position_encoding, d_model),
